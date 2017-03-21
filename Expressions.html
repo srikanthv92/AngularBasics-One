@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Expressions</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+</head>
+<body>
+<div ng-app="" ng-init="quantity =1; cost=30; student={firstname: 'srikanth', lastname:'vadagam', rollno:101}; marks=[80,75,78,76]">
+    <p>Hello{{student.firstname+""+student.lastname}}</p>
+    <p>Expense on books: {{cost*quantity}} Rs</p>
+    <p>Rollno: {{student.rollno}}</p>
+    <p>Marks(Math): {{marks[3]}}</p>
+</div>
+</body>
+</html>
